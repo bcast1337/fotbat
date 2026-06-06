@@ -55,13 +55,15 @@ export async function runBacktest(code: string, from: string, to: string): Promi
     const actual: 'home' | 'draw' | 'away' = hg > ag ? 'home' : hg === ag ? 'draw' : 'away';
     if (home.played >= WARMUP_MATCHES && away.played >= WARMUP_MATCHES) {
       const probs = predictProbs(home, away); const market = simulateMarketOdds(probs);
-      const pick = (['home', 'draw', 'away'] as const).sort((a, b) => probs[b] - probs[a])[0];
+      const pickArr: Array<'home' | 'draw' | 'away'> = ['home', 'draw', 'away'];
+      const pick = pickArr.slice().sort((a, b) => probs[b] - probs[a])[0] as 'home' | 'draw' | 'away';
       const correct = pick === actual;
       n++; if (correct) hits++; if (actual === 'home') baselineHits++; actuals[actual]++;
       brierSum += Math.pow(probs.home - (actual === 'home' ? 1 : 0), 2) + Math.pow(probs.draw - (actual === 'draw' ? 1 : 0), 2) + Math.pow(probs.away - (actual === 'away' ? 1 : 0), 2);
       logLossSum += -Math.log(Math.max(1e-6, probs[actual])); pnl += correct ? 1 / probs[pick] - 1 : -1;
       if (samples.length < 8) samples.push({ match: `${m.homeTeam.shortName || m.homeTeam.name} vs ${m.awayTeam.shortName || m.awayTeam.name}`, date: m.utcDate.slice(0, 10), predicted: pick, probability: Math.round(probs[pick] * 100) / 100, actual, correct });
-      const outcomes = (['home', 'draw', 'away'] as const).map((o) => ({ outcome: o, edgePct: (probs[o] - market.implied[o]) * 100, modelProbability: probs[o], impliedProbability: market.implied[o], marketOdds: market[o] })).filter((o) => o.edgePct >= VALUE_THRESHOLD_PCT).sort((a, b) => b.edgePct - a.edgePct);
+      const outcomeKeys: Array<'home' | 'draw' | 'away'> = ['home', 'draw', 'away'];
+      const outcomes = outcomeKeys.map((o) => ({ outcome: o, edgePct: (probs[o] - market.implied[o]) * 100, modelProbability: probs[o], impliedProbability: market.implied[o], marketOdds: market[o] })).filter((o) => o.edgePct >= VALUE_THRESHOLD_PCT).sort((a, b) => b.edgePct - a.edgePct);
       if (outcomes.length > 0) {
         const best = outcomes[0]; const won = best.outcome === actual; const tradePnl = won ? best.marketOdds - 1 : -1;
         vbCount++; if (won) vbHits++; vbPnl += tradePnl; vbCurve.push(vbPnl);
