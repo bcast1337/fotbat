@@ -1,0 +1,9 @@
+export declare const cssRegex: RegExp;
+export declare const cssNoModulesRegex: RegExp;
+export declare const cssModuleRegex: RegExp;
+export declare const sassRegex: RegExp;
+export declare const sassNoModuleRegex: RegExp;
+export declare const sassModuleRegex: RegExp;
+export declare const lessRegex: RegExp;
+export declare const lessNoModuleRegex: RegExp;
+export declare const lessModuleRegex: RegExp;

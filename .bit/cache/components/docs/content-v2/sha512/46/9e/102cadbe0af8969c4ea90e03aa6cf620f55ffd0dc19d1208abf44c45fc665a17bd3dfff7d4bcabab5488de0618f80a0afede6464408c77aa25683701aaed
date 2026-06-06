@@ -1,0 +1,1 @@
+[{"name":"","description":"Dashboard is the main intelligence view: it runs the hybrid engine over\ntoday's fixtures and renders predictions in a trading-style grid, with\nfilters for value bets and high-confidence picks.","args":[],"returns":{},"access":"public","examples":[],"render":"","properties":[],"static":false,"filePath":"ui/dashboard.tsx"}]

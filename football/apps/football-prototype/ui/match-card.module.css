@@ -1,0 +1,232 @@
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-dim);
+}
+
+.valueCard {
+  border-color: var(--value);
+  box-shadow: 0 0 0 1px var(--value), 0 8px 24px rgba(61, 220, 151, 0.12);
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.league {
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.valueBadge {
+  background: var(--value);
+  color: #042; 
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.teams {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.team {
+  text-align: center;
+}
+
+.teamName {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.teamForm {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  margin-top: 0.4rem;
+}
+
+.formDot {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+
+.formW { background: #2e9e6b; }
+.formD { background: #b08a2e; }
+.formL { background: #b04545; }
+
+.vs {
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.xg {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.probBar {
+  display: flex;
+  height: 34px;
+  margin: 0 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.probSeg {
+  display: grid;
+  place-items: center;
+  color: #fff;
+  transition: flex 0.3s ease;
+  min-width: 2.5rem;
+}
+
+.segHome { background: var(--home); }
+.segDraw { background: var(--draw); color: #2a1f00; }
+.segAway { background: var(--away); }
+
+.probLabels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 1rem 0;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.confidence {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.confTrack {
+  display: flex;
+  gap: 2px;
+}
+
+.confPip {
+  width: 6px;
+  height: 14px;
+  border-radius: 2px;
+  background: var(--border);
+}
+
+.confPipOn { background: var(--accent); }
+
+.confLabel {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.edge {
+  text-align: right;
+}
+
+.edgeValue {
+  font-weight: 800;
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.edgePos { color: var(--value); }
+.edgeNeg { color: var(--muted); }
+
+.edgeLabel {
+  font-size: 0.66rem;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.explainToggle {
+  background: var(--panel-2);
+  border: none;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  padding: 0.6rem 1rem;
+  font-size: 0.78rem;
+  cursor: pointer;
+  text-align: left;
+  transition: color 0.15s ease;
+}
+
+.explainToggle:hover { color: var(--text); }
+
+.explainPanel {
+  padding: 0.5rem 1rem 1rem;
+  background: var(--panel-2);
+}
+
+.explainItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text);
+  padding: 0.3rem 0;
+  line-height: 1.4;
+}
+
+.explainBullet {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.odds {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 1rem 0.5rem;
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.oddChip {
+  background: var(--panel-2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+.oddChipValue {
+  outline: 1px solid var(--value);
+  color: var(--value);
+}

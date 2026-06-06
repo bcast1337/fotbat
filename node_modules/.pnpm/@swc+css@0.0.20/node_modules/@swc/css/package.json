@@ -1,0 +1,71 @@
+{
+  "name": "@swc/css",
+  "version": "0.0.20",
+  "description": "Super-fast alternative for postcss",
+  "homepage": "https://swc.rs",
+  "main": "./index.js",
+  "author": "강동윤 <kdy1997.dev@gmail.com>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "swc",
+    "css"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swc-project/swc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swc-project/swc/issues"
+  },
+  "napi": {
+    "name": "css",
+    "triples": {
+      "defaults": true,
+      "additional": [
+        "x86_64-unknown-linux-musl",
+        "x86_64-unknown-freebsd",
+        "i686-pc-windows-msvc",
+        "aarch64-unknown-linux-gnu",
+        "armv7-unknown-linux-gnueabihf",
+        "aarch64-apple-darwin",
+        "aarch64-linux-android",
+        "aarch64-unknown-linux-musl",
+        "aarch64-pc-windows-msvc",
+        "armv7-linux-androideabi"
+      ]
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts --dist scripts/npm",
+    "prepublishOnly": "tsc -d && napi prepublish -p scripts/npm --tagstyle npm",
+    "pack": "wasm-pack",
+    "build:ts": "tsc -d",
+    "build:wasm": "npm-run-all \"pack -- build ./crates/wasm --scope swc {1} -t {2} \" --",
+    "build": "tsc -d && napi build --platform --cargo-name css_node --js ./binding.js --dts binding.d.ts -p css_node --release --cargo-cwd ../..",
+    "build:dev": "tsc -d && napi build --platform --cargo-name css_node --js ./binding.js --dts binding.d.ts -p css_node --cargo-cwd ../..",
+    "test": "echo 'done!'",
+    "version": "napi version -p scripts/npm"
+  },
+  "optionalDependencies": {
+    "@swc/css-win32-x64-msvc": "0.0.20",
+    "@swc/css-darwin-x64": "0.0.20",
+    "@swc/css-linux-x64-gnu": "0.0.20",
+    "@swc/css-linux-x64-musl": "0.0.20",
+    "@swc/css-freebsd-x64": "0.0.20",
+    "@swc/css-win32-ia32-msvc": "0.0.20",
+    "@swc/css-linux-arm64-gnu": "0.0.20",
+    "@swc/css-linux-arm-gnueabihf": "0.0.20",
+    "@swc/css-darwin-arm64": "0.0.20",
+    "@swc/css-android-arm64": "0.0.20",
+    "@swc/css-linux-arm64-musl": "0.0.20",
+    "@swc/css-win32-arm64-msvc": "0.0.20",
+    "@swc/css-android-arm-eabi": "0.0.20"
+  }
+}

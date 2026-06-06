@@ -1,0 +1,31 @@
+2026-06-06T14:04:41.537Z 334 start -p 3000 --use-source, started
+2026-06-06T14:04:45.583Z 452 status --json, started
+2026-06-06T14:04:45.609Z 452 status --json, succeeded
+2026-06-06T14:04:59.303Z 494 templates, started
+2026-06-06T14:04:59.400Z 494 templates, succeeded
+2026-06-06T14:05:15.209Z 543 create react-app apps/football-prototype --scope juju123.football, started
+2026-06-06T14:05:18.820Z 577 mini-status --json, started
+2026-06-06T14:05:18.865Z 579 ls --json, started
+2026-06-06T14:05:18.875Z 577 mini-status --json, succeeded
+2026-06-06T14:05:18.929Z 579 ls --json, succeeded
+2026-06-06T14:06:29.772Z 543 create react-app apps/football-prototype --scope juju123.football, succeeded
+2026-06-06T14:09:40.452Z 1265 app list, started
+2026-06-06T14:09:43.609Z 1265 app list, succeeded
+2026-06-06T14:09:52.508Z 1367 run football-prototype -p 3001, started
+2026-06-06T14:11:10.992Z 1717 status --json, started
+2026-06-06T14:11:14.466Z 1717 status --json, succeeded
+2026-06-06T14:12:07.340Z 1889 server --compile, started
+2026-06-06T14:12:23.570Z 2159 status --json, started
+2026-06-06T14:12:26.202Z 2159 status --json, succeeded
+2026-06-06T14:12:28.175Z 2218 get-deps juju123.football/apps/football-prototype --json -c, started
+2026-06-06T14:12:30.648Z 2218 get-deps juju123.football/apps/football-prototype --json -c, succeeded
+2026-06-06T14:12:42.949Z 2300 status --json, started
+2026-06-06T14:12:45.584Z 2300 status --json, succeeded
+2026-06-06T14:13:23.481Z 2429 status --json, started
+2026-06-06T14:13:26.078Z 2429 status --json, succeeded
+2026-06-06T14:14:05.154Z 2745 status --json, started
+2026-06-06T14:14:07.939Z 2745 status --json, succeeded
+2026-06-06T14:14:48.237Z 2801 status --json, started
+2026-06-06T14:14:51.023Z 2801 status --json, succeeded
+2026-06-06T14:15:43.376Z 2919 status --json, started
+2026-06-06T14:15:46.182Z 2919 status --json, succeeded

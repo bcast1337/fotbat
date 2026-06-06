@@ -1,0 +1,18 @@
+cd ~/football-intel
+git init
+git add .
+git commit -m "Football Decision Intelligence Platform"
+git branch -M main
+git remote add origin https://github.com/affiliated112-pixel/fotbal.git
+git push -u origin main
+cd ~/football-intel
+git init
+git add .
+git commit -m "Football Decision Intelligence Platform"
+git branch -M main
+git remote add origin https://github.com/affiliated112-pixel/fotbal.git
+git push -u origin main
+git remote set-url origin https://affiliated112-pixel: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@github.com/affiliated112-pixel/fotbal.git
+git push -u origin main
+git remote set-url origin https://affiliated112-pixel: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@github.com/affiliated112-pixel/fotbal.git
+git push -u origin main

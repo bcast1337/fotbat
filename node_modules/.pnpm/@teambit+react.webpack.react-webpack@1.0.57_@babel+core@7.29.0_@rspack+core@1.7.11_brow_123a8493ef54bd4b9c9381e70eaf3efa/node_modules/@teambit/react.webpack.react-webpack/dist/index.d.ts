@@ -1,0 +1,9 @@
+export { html } from './html';
+export { configBaseFactory } from './webpack.config.base';
+export { configBaseProdFactory } from './webpack.config.base.prod';
+export { configBaseDevFactory } from './webpack.config.base.dev';
+export { configComponentDevFactory } from './webpack.config.component.dev';
+export { configComponentProdFactory } from './webpack.config.component.prod';
+export { configAppDevFactory } from './webpack.config.app.dev';
+export { configEnvDevFactory } from './webpack.config.env.dev';
+export { templateWebpackConfigFactory } from './webpack.config.env.template';

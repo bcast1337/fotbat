@@ -1,0 +1,1 @@
+[{"filePath":"ui/match-card.tsx","name":"MatchCard","description":"","properties":[{"name":"prediction","description":"","required":true,"type":"Prediction"},{"name":"fixture","description":"","required":true,"type":"Fixture"}],"access":"public","methods":[],"args":[],"examples":[]}]
