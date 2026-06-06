@@ -22,6 +22,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.4rem;
+  flex-wrap: wrap;
   padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--border);
 }
@@ -33,15 +35,58 @@
   letter-spacing: 0.06em;
 }
 
+.badges {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .valueBadge {
   background: var(--value);
-  color: #042; 
+  color: #042;
   font-size: 0.68rem;
   font-weight: 800;
   padding: 0.2rem 0.55rem;
   border-radius: 999px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+.bttsBadge {
+  background: rgba(120, 86, 220, 0.22);
+  color: #b39af0;
+  border: 1px solid rgba(120, 86, 220, 0.4);
+  font-size: 0.66rem;
+  font-weight: 700;
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+}
+
+.overBadge {
+  background: rgba(92, 192, 243, 0.15);
+  color: #5cc0f3;
+  border: 1px solid rgba(92, 192, 243, 0.35);
+  font-size: 0.66rem;
+  font-weight: 700;
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+}
+
+.lowDataBadge {
+  background: rgba(245, 183, 64, 0.16);
+  color: var(--draw);
+  border: 1px solid var(--draw);
+  font-size: 0.66rem;
+  font-weight: 700;
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.probBarDim {
+  opacity: 0.45;
+  filter: grayscale(0.4);
 }
 
 .teams {
@@ -82,6 +127,23 @@
 .formW { background: #2e9e6b; }
 .formD { background: #b08a2e; }
 .formL { background: #b04545; }
+.formNone { color: var(--muted); font-size: 0.75rem; }
+
+.crest {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  margin: 0 auto 0.35rem;
+  display: block;
+}
+
+.leagueLogo {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 4px;
+}
 
 .vs {
   font-size: 0.7rem;
@@ -177,23 +239,289 @@
   text-transform: uppercase;
 }
 
-.explainToggle {
-  background: var(--panel-2);
-  border: none;
+/* ── Card-level tabs ── */
+.cardTabs {
+  display: flex;
   border-top: 1px solid var(--border);
-  color: var(--muted);
-  padding: 0.6rem 1rem;
-  font-size: 0.78rem;
-  cursor: pointer;
-  text-align: left;
-  transition: color 0.15s ease;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
-.explainToggle:hover { color: var(--text); }
+.cardTabs::-webkit-scrollbar { display: none; }
+
+.cardTab {
+  flex: 1;
+  min-width: 56px;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.55rem 0.4rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  white-space: nowrap;
+}
+
+.cardTab:hover { color: var(--text); }
+
+.cardTabActive {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ── Tab content area ── */
+.tabContent {
+  padding: 0.75rem 1rem 1rem;
+  background: var(--panel-2);
+  flex: 1;
+}
+
+/* ── Shared market rows ── */
+.marketGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.marketRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  transition: background 0.1s;
+}
+
+.marketRowHL {
+  background: rgba(61, 220, 151, 0.08);
+  border-left: 2px solid var(--value);
+}
+
+.marketLabel { color: var(--muted); }
+.marketValue { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* ── Goal markets ── */
+.xgRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* ── Correct scores ── */
+.csGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.csCell {
+  background: var(--panel);
+  border-radius: 8px;
+  padding: 0.55rem 0.3rem;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+.csCellTop {
+  border-color: var(--value);
+  background: rgba(61, 220, 151, 0.07);
+}
+
+.csScore {
+  font-size: 0.95rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.csProb {
+  font-size: 0.68rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.csNote {
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* ── Asian handicap ── */
+.ahSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.ahSide { }
+
+.ahTeam {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+  color: var(--text);
+}
+
+/* ── Kelly ── */
+.kellyDesc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+  line-height: 1.5;
+}
+
+.kellyEmpty {
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.kellyCard {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.65rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.kellyHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.kellyOutcome {
+  font-weight: 800;
+  font-size: 0.88rem;
+}
+
+.kellyOdds {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.kellyEdge {
+  margin-left: auto;
+  color: var(--value);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.kellyProbs {
+  font-size: 0.76rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.kellyFractions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.kellyFrac {
+  background: var(--panel-2);
+  border-radius: 6px;
+  padding: 0.4rem 0.3rem;
+  text-align: center;
+}
+
+.kellyFracHL {
+  border: 1px solid var(--value);
+  background: rgba(61, 220, 151, 0.07);
+}
+
+.kellyFracLabel {
+  display: block;
+  font-size: 0.64rem;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.kellyFracVal {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.kellyQuick {
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(61, 220, 151, 0.07);
+  border: 1px solid rgba(61, 220, 151, 0.25);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.kellyQuickLabel {
+  font-weight: 700;
+  color: var(--value);
+}
+
+.kellyQuickVal {
+  color: var(--text);
+}
+
+/* ── H2H ── */
+.h2hBar {
+  display: flex;
+  height: 28px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.h2hSeg {
+  display: grid;
+  place-items: center;
+  color: #fff;
+  transition: flex 0.3s ease;
+  min-width: 24px;
+}
+
+.h2hLabels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.68rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+/* ── Pct helper ── */
+.pct {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.pctGood { color: var(--value); }
+.pctBad { color: #ff6b6b; }
+.pctNeutral { color: var(--text); }
+
+/* ── Overview legacy ── */
+.explainToggle {
+  display: none;
+}
 
 .explainPanel {
-  padding: 0.5rem 1rem 1rem;
-  background: var(--panel-2);
+  margin-bottom: 0.5rem;
 }
 
 .explainItem {

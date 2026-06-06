@@ -15,6 +15,22 @@
       },
       "isSymlink": false,
       "hash": "7c7b0e8b950507675eb26a304d7d26defab275a7"
+    },
+    {
+      "id": {
+        "scope": "bitdev.node",
+        "name": "node-env"
+      },
+      "isSymlink": false,
+      "hash": "ca06bbbbe1eefa9afb10aeb40fd66d33d9477d7e"
+    },
+    {
+      "id": {
+        "scope": "bitdev.node",
+        "name": "node-server"
+      },
+      "isSymlink": false,
+      "hash": "3d9dfebc8c3985750c7421779af507d52c159d3c"
     }
   ],
   "lanes": []

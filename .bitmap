@@ -23,5 +23,19 @@
             }
         }
     },
+    "services/football-service": {
+        "name": "services/football-service",
+        "scope": "",
+        "version": "",
+        "defaultScope": "juju123.football",
+        "mainFile": "index.ts",
+        "rootDir": "football/services/football-service",
+        "config": {
+            "bitdev.node/node-env@6.0.12": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.node/node-env"
+            }
+        }
+    },
     "$schema-version": "17.0.0"
 }

@@ -81,6 +81,34 @@
   letter-spacing: 0.05em;
 }
 
+.tabs {
+  display: flex;
+  gap: 0.25rem;
+  padding: 0 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  padding: 0.85rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.tab:hover {
+  color: var(--text);
+}
+
+.tabActive {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 .toolbar {
   display: flex;
   gap: 0.5rem;
@@ -110,6 +138,22 @@
   color: #fff;
 }
 
+.message {
+  padding: 2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.error {
+  margin: 1.5rem 2rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255, 107, 107, 0.1);
+  border: 1px solid var(--away);
+  border-radius: 10px;
+  color: var(--away);
+  font-size: 0.9rem;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -119,6 +163,7 @@
 
 @media (max-width: 640px) {
   .header { padding: 1rem; }
+  .tabs { padding: 0 1rem; }
   .toolbar { padding: 1rem 1rem 0; }
   .grid { padding: 1rem; grid-template-columns: 1fr; }
 }

@@ -16,3 +16,193 @@
 2026-06-06T14:12:10.761Z 9944 getCompsMetadata(), started
 2026-06-06T14:12:10.762Z 6914 getModifiedByConfig(), succeeded
 2026-06-06T14:12:10.992Z 9944 getCompsMetadata(), succeeded
+2026-06-06T14:22:24.339Z 7113 getCurrentLaneObject(), started
+2026-06-06T14:22:24.342Z 3140 getDataToInitSCM({"useHashes":true}), started
+2026-06-06T14:22:24.345Z 3023 status  --ignoreCircularDependencies, started
+2026-06-06T14:22:24.346Z 7113 getCurrentLaneObject(), succeeded
+2026-06-06T14:22:24.355Z 3140 getDataToInitSCM({"useHashes":true}), succeeded
+2026-06-06T14:22:24.371Z 2962 getCurrentLaneName(), started
+2026-06-06T14:22:24.375Z 2962 getCurrentLaneName(), succeeded
+2026-06-06T14:22:25.333Z 2108 listIdsWithPaths(), started
+2026-06-06T14:22:25.335Z 2108 listIdsWithPaths(), succeeded
+2026-06-06T14:22:25.366Z 3023 status  --ignoreCircularDependencies, succeeded
+2026-06-06T14:22:25.373Z 9587 getModifiedByConfig(), started
+2026-06-06T14:22:25.374Z 4977 getCompsMetadata(), started
+2026-06-06T14:22:25.379Z 9587 getModifiedByConfig(), succeeded
+2026-06-06T14:22:25.404Z 2746 getCurrentLaneObject(), started
+2026-06-06T14:22:25.405Z 3306 getDataToInitSCM({"useHashes":true}), started
+2026-06-06T14:22:25.406Z 8160 status  --ignoreCircularDependencies, started
+2026-06-06T14:22:25.407Z 2746 getCurrentLaneObject(), succeeded
+2026-06-06T14:22:25.411Z 3306 getDataToInitSCM({"useHashes":true}), succeeded
+2026-06-06T14:22:25.415Z 1672 getCurrentLaneName(), started
+2026-06-06T14:22:25.416Z 1672 getCurrentLaneName(), succeeded
+2026-06-06T14:22:25.583Z 9415 getCurrentLaneObject(), started
+2026-06-06T14:22:25.584Z 4578 getDataToInitSCM({"useHashes":true}), started
+2026-06-06T14:22:25.589Z 4977 getCompsMetadata(), succeeded
+2026-06-06T14:22:25.589Z 9415 getCurrentLaneObject(), succeeded
+2026-06-06T14:22:25.592Z 9293 getCurrentLaneObject(), started
+2026-06-06T14:22:25.599Z 4578 getDataToInitSCM({"useHashes":true}), succeeded
+2026-06-06T14:22:25.599Z 9293 getCurrentLaneObject(), succeeded
+2026-06-06T14:22:25.604Z 4779 getDataToInitSCM({"useHashes":true}), started
+2026-06-06T14:22:25.612Z 4779 getDataToInitSCM({"useHashes":true}), succeeded
+2026-06-06T14:22:25.858Z 9000 listIdsWithPaths(), started
+2026-06-06T14:22:25.859Z 9000 listIdsWithPaths(), succeeded
+2026-06-06T14:22:25.918Z 8160 status  --ignoreCircularDependencies, succeeded
+2026-06-06T14:22:25.921Z 5790 getModifiedByConfig(), started
+2026-06-06T14:22:25.924Z 5790 getModifiedByConfig(), succeeded
+2026-06-06T14:22:25.926Z 4259 status  --ignoreCircularDependencies, started
+2026-06-06T14:22:25.931Z 4259 status  --ignoreCircularDependencies, succeeded
+2026-06-06T14:22:25.934Z 2182 getCompsMetadata(), started
+2026-06-06T14:22:25.938Z 2182 getCompsMetadata(), succeeded
+2026-06-06T14:22:38.306Z 3218 status  --ignoreCircularDependencies, started
+2026-06-06T14:22:38.458Z 3218 status  --ignoreCircularDependencies, succeeded
+2026-06-06T14:22:38.461Z 3250 getModifiedByConfig(), started
+2026-06-06T14:22:38.462Z 3250 getModifiedByConfig(), succeeded
+2026-06-06T14:22:38.476Z 290 listIdsWithPaths(), started
+2026-06-06T14:22:38.478Z 290 listIdsWithPaths(), succeeded
+2026-06-06T14:22:38.480Z 5274 getCompsMetadata(), started
+2026-06-06T14:22:38.533Z 5274 getCompsMetadata(), succeeded
+2026-06-06T14:24:26.533Z 5028 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:24:26.541Z 5028 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:25:22.273Z 2075 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:25:22.276Z 2075 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:25:48.510Z 589 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:25:48.702Z 589 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:25:48.710Z 7182 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:25:48.714Z 7182 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:26:06.487Z 4461 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:26:06.492Z 4461 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:29:32.826Z 6179 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:29:32.830Z 6179 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:30:32.206Z 6296 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:30:32.210Z 6296 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:30:46.783Z 3439 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:30:46.786Z 3439 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:30:57.759Z 2764 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:30:57.763Z 2764 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:32:18.660Z 9929 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:32:18.664Z 9929 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:32:55.746Z 5229 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:32:55.750Z 5229 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:33:48.797Z 5516 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:33:48.801Z 5516 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:34:08.432Z 6242 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:34:08.437Z 6242 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:34:12.839Z 8177 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:34:12.843Z 8177 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:34:29.030Z 8533 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:34:29.034Z 8533 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:34:34.284Z 1568 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:34:34.288Z 1568 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:34:43.041Z 1366 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:34:43.044Z 1366 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:34:55.994Z 7819 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:34:55.999Z 7819 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:35:46.511Z 1005 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:35:46.515Z 1005 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:39:42.766Z 5572 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:39:42.770Z 5572 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:40:02.170Z 1688 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:40:02.173Z 1688 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:40:15.537Z 541 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:40:15.541Z 541 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:43:19.848Z 7244 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:43:19.853Z 7244 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:43:37.628Z 7736 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:43:37.632Z 7736 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:43:47.276Z 6937 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:43:47.280Z 6937 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:44:17.284Z 8088 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:44:17.289Z 8088 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:44:38.813Z 2597 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:44:38.816Z 2597 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:45:03.309Z 8175 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:45:03.313Z 8175 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:45:22.693Z 238 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:45:22.699Z 238 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:45:34.299Z 8001 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:45:34.302Z 8001 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:45:48.230Z 1040 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:45:48.235Z 1040 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:45:58.507Z 5998 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:45:58.510Z 5998 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:46:09.252Z 1847 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:46:09.255Z 1847 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:46:18.754Z 2378 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:46:18.759Z 2378 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:46:30.392Z 5662 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:46:30.396Z 5662 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:57:20.289Z 3387 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:57:20.293Z 3387 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:57:48.904Z 6071 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:57:48.909Z 6071 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:57:57.665Z 948 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:57:57.669Z 948 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:58:27.416Z 2024 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:58:27.419Z 2024 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:59:46.532Z 2971 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:59:46.535Z 2971 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T14:59:47.544Z 4258 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T14:59:47.548Z 4258 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:00:08.375Z 5551 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:00:08.378Z 5551 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:00:25.969Z 202 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:00:25.972Z 202 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:00:35.723Z 9238 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:00:35.726Z 9238 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:09:46.805Z 6470 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:09:46.809Z 6470 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:09:47.629Z 4335 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:09:47.637Z 4335 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:09:50.023Z 9427 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:09:50.027Z 9427 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:09:50.282Z 253 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:09:50.291Z 253 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:09:51.746Z 6572 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:09:51.750Z 6572 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:12:15.716Z 1387 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:12:15.719Z 1387 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:12:17.084Z 3069 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:12:17.252Z 3069 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:12:17.257Z 5847 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:12:17.259Z 5847 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:25:23.925Z 9788 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:25:23.930Z 9788 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:26:51.126Z 7516 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:26:51.131Z 7516 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:27:44.119Z 3343 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:27:44.123Z 3343 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:28:01.753Z 9199 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:28:01.758Z 9199 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:28:22.677Z 9239 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:28:22.680Z 9239 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:29:23.308Z 2327 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:29:23.314Z 2327 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:30:15.333Z 7426 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:30:15.336Z 7426 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:30:36.846Z 6292 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:30:36.850Z 6292 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:30:51.583Z 3541 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:30:51.590Z 3541 mini-status juju123.football/services/football-service --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:32:13.128Z 3673 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:32:13.132Z 3673 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:32:59.894Z 2007 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:32:59.897Z 2007 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:33:35.739Z 8531 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:33:35.743Z 8531 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:33:50.742Z 604 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, started
+2026-06-06T15:33:50.745Z 604 mini-status juju123.football/apps/football-prototype --showIssues --ignoreCircularDependencies, succeeded
+2026-06-06T15:53:21.798Z 430 version, started
+2026-06-06T15:53:21.800Z 430 version, succeeded
+2026-06-06T15:53:21.806Z 6587 importObjectsIfOutdatedAgainstBitmap(), started
+2026-06-06T15:53:21.815Z 6587 importObjectsIfOutdatedAgainstBitmap(), succeeded
+2026-06-06T15:53:21.819Z 6072 getCurrentLaneObject(), started
+2026-06-06T15:53:21.820Z 7486 getDataToInitSCM({"useHashes":true}), started
+2026-06-06T15:53:21.821Z 136 status  --ignoreCircularDependencies, started
+2026-06-06T15:53:21.822Z 6072 getCurrentLaneObject(), succeeded
+2026-06-06T15:53:21.860Z 7486 getDataToInitSCM({"useHashes":true}), succeeded
+2026-06-06T15:53:21.871Z 446 getCurrentLaneName(), started
+2026-06-06T15:53:21.871Z 446 getCurrentLaneName(), succeeded
+2026-06-06T15:53:24.556Z 136 status  --ignoreCircularDependencies, succeeded
+2026-06-06T15:53:24.560Z 7007 getModifiedByConfig(), started
+2026-06-06T15:53:24.562Z 7007 getModifiedByConfig(), succeeded

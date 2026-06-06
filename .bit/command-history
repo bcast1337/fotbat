@@ -31,3 +31,248 @@
 2026-06-06T14:15:46.182Z 2919 status --json, succeeded
 2026-06-06T14:16:52.213Z 3176 status --json, started
 2026-06-06T14:16:54.846Z 3176 status --json, succeeded
+2026-06-06T14:18:36.115Z 3654 status --json, started
+2026-06-06T14:18:38.720Z 3654 status --json, succeeded
+2026-06-06T14:19:32.374Z 3733 status --json, started
+2026-06-06T14:19:34.974Z 3733 status --json, succeeded
+2026-06-06T14:19:55.021Z 3799 app list --json, started
+2026-06-06T14:19:57.615Z 3799 app list --json, succeeded
+2026-06-06T14:20:49.734Z 3893 status --json, started
+2026-06-06T14:20:52.341Z 3893 status --json, succeeded
+2026-06-06T14:21:21.763Z 3959 status --json, started
+2026-06-06T14:21:24.334Z 3959 status --json, succeeded
+2026-06-06T14:21:48.636Z 4032 status --json, started
+2026-06-06T14:21:51.229Z 4032 status --json, succeeded
+2026-06-06T14:22:22.381Z 4133 create express-server services/football-service --scope juju123.football, started
+2026-06-06T14:22:26.199Z 4167 ls --json, started
+2026-06-06T14:22:26.200Z 4169 mini-status --json, started
+2026-06-06T14:22:26.254Z 4169 mini-status --json, succeeded
+2026-06-06T14:22:26.282Z 4167 ls --json, succeeded
+2026-06-06T14:22:38.339Z 4133 create express-server services/football-service --scope juju123.football, succeeded
+2026-06-06T14:23:15.130Z 4392 app list --json, started
+2026-06-06T14:23:17.792Z 4392 app list --json, succeeded
+2026-06-06T14:23:25.210Z 4486 run football-prototype -p 3001, started
+2026-06-06T14:23:26.470Z 4524 status --json, started
+2026-06-06T14:23:30.289Z 4524 status --json, succeeded
+2026-06-06T14:24:28.377Z 4807 mini-status --json, started
+2026-06-06T14:24:28.421Z 4808 ls --json, started
+2026-06-06T14:24:28.427Z 4807 mini-status --json, succeeded
+2026-06-06T14:24:28.490Z 4808 ls --json, succeeded
+2026-06-06T14:25:24.102Z 4967 mini-status --json, started
+2026-06-06T14:25:24.145Z 4968 ls --json, started
+2026-06-06T14:25:24.156Z 4967 mini-status --json, succeeded
+2026-06-06T14:25:24.211Z 4968 ls --json, succeeded
+2026-06-06T14:25:50.180Z 5137 mini-status --json, started
+2026-06-06T14:25:50.234Z 5137 mini-status --json, succeeded
+2026-06-06T14:25:50.321Z 5162 ls --json, started
+2026-06-06T14:25:50.387Z 5162 ls --json, succeeded
+2026-06-06T14:26:07.254Z 5296 check-types, started
+2026-06-06T14:26:08.075Z 5332 mini-status --json, started
+2026-06-06T14:26:08.128Z 5331 ls --json, started
+2026-06-06T14:26:08.142Z 5332 mini-status --json, succeeded
+2026-06-06T14:26:08.203Z 5331 ls --json, succeeded
+2026-06-06T14:26:10.245Z 5296 check-types, succeeded
+2026-06-06T14:26:14.572Z 5472 app list, started
+2026-06-06T14:26:17.308Z 5472 app list, succeeded
+2026-06-06T14:26:26.463Z 5559 run football-service -p 3002, started
+2026-06-06T14:29:34.504Z 5927 mini-status --json, started
+2026-06-06T14:29:34.555Z 5927 mini-status --json, succeeded
+2026-06-06T14:29:34.652Z 5950 ls --json, started
+2026-06-06T14:29:34.722Z 5950 ls --json, succeeded
+2026-06-06T14:30:33.787Z 6098 mini-status --json, started
+2026-06-06T14:30:33.830Z 6099 ls --json, started
+2026-06-06T14:30:33.842Z 6098 mini-status --json, succeeded
+2026-06-06T14:30:33.899Z 6099 ls --json, succeeded
+2026-06-06T14:30:48.315Z 6239 mini-status --json, started
+2026-06-06T14:30:48.362Z 6241 ls --json, started
+2026-06-06T14:30:48.379Z 6239 mini-status --json, succeeded
+2026-06-06T14:30:48.430Z 6241 ls --json, succeeded
+2026-06-06T14:30:59.053Z 6361 check-types, started
+2026-06-06T14:30:59.375Z 6396 mini-status --json, started
+2026-06-06T14:30:59.411Z 6397 ls --json, started
+2026-06-06T14:30:59.430Z 6396 mini-status --json, succeeded
+2026-06-06T14:30:59.482Z 6397 ls --json, succeeded
+2026-06-06T14:31:01.882Z 6361 check-types, succeeded
+2026-06-06T14:31:12.440Z 6565 run football-service -p 3002, started
+2026-06-06T14:31:21.455Z 6778 run football-service -p 3002, started
+2026-06-06T14:34:57.044Z 7520 check-types, started
+2026-06-06T14:34:59.817Z 7520 check-types, succeeded
+2026-06-06T14:35:09.981Z 7668 run football-prototype -p 3001, started
+2026-06-06T14:35:48.257Z 7935 mini-status --json, started
+2026-06-06T14:35:48.292Z 7934 ls --json, started
+2026-06-06T14:35:48.310Z 7935 mini-status --json, succeeded
+2026-06-06T14:35:48.359Z 7934 ls --json, succeeded
+2026-06-06T14:35:58.723Z 8056 run football-service -p 3002, started
+2026-06-06T14:36:30.081Z 8227 validate, started
+2026-06-06T14:36:42.249Z 8227 validate, succeeded
+2026-06-06T14:38:25.255Z 8540 status --json, started
+2026-06-06T14:38:28.502Z 8540 status --json, succeeded
+2026-06-06T14:38:46.260Z 8630 app list --json, started
+2026-06-06T14:38:48.970Z 8630 app list --json, succeeded
+2026-06-06T14:38:57.783Z 8723 run football-prototype -p 3001, started
+2026-06-06T14:39:05.676Z 8876 run football-service -p 3002, started
+2026-06-06T14:39:07.455Z 8914 status --json, started
+2026-06-06T14:39:10.328Z 8914 status --json, succeeded
+2026-06-06T14:39:44.494Z 9213 mini-status --json, started
+2026-06-06T14:39:44.534Z 9214 ls --json, started
+2026-06-06T14:39:44.547Z 9213 mini-status --json, succeeded
+2026-06-06T14:39:44.601Z 9214 ls --json, succeeded
+2026-06-06T14:40:03.996Z 9392 mini-status --json, started
+2026-06-06T14:40:03.997Z 9373 ls --json, started
+2026-06-06T14:40:04.048Z 9392 mini-status --json, succeeded
+2026-06-06T14:40:04.066Z 9373 ls --json, succeeded
+2026-06-06T14:40:16.947Z 9531 check-types, started
+2026-06-06T14:40:19.662Z 9531 check-types, succeeded
+2026-06-06T14:40:30.349Z 9676 run football-service -p 3002, started
+2026-06-06T14:42:37.259Z 9974 status --json, started
+2026-06-06T14:42:40.048Z 9974 status --json, succeeded
+2026-06-06T14:43:21.600Z 10123 mini-status --json, started
+2026-06-06T14:43:21.644Z 10124 ls --json, started
+2026-06-06T14:43:21.655Z 10123 mini-status --json, succeeded
+2026-06-06T14:43:21.717Z 10124 ls --json, succeeded
+2026-06-06T14:43:39.545Z 10284 mini-status --json, started
+2026-06-06T14:43:39.580Z 10282 ls --json, started
+2026-06-06T14:43:39.602Z 10284 mini-status --json, succeeded
+2026-06-06T14:43:39.650Z 10282 ls --json, succeeded
+2026-06-06T14:43:49.777Z 10473 mini-status --json, started
+2026-06-06T14:43:49.818Z 10474 ls --json, started
+2026-06-06T14:43:49.860Z 10473 mini-status --json, succeeded
+2026-06-06T14:43:49.884Z 10474 ls --json, succeeded
+2026-06-06T14:44:19.063Z 10600 mini-status --json, started
+2026-06-06T14:44:19.103Z 10582 ls --json, started
+2026-06-06T14:44:19.120Z 10600 mini-status --json, succeeded
+2026-06-06T14:44:19.172Z 10582 ls --json, succeeded
+2026-06-06T14:44:40.484Z 10786 mini-status --json, started
+2026-06-06T14:44:40.522Z 10784 ls --json, started
+2026-06-06T14:44:40.538Z 10786 mini-status --json, succeeded
+2026-06-06T14:44:40.590Z 10784 ls --json, succeeded
+2026-06-06T14:45:04.899Z 10965 mini-status --json, started
+2026-06-06T14:45:04.950Z 10965 mini-status --json, succeeded
+2026-06-06T14:45:04.953Z 10966 ls --json, started
+2026-06-06T14:45:05.019Z 10966 ls --json, succeeded
+2026-06-06T14:45:24.357Z 11113 mini-status --json, started
+2026-06-06T14:45:24.411Z 11112 ls --json, started
+2026-06-06T14:45:24.412Z 11113 mini-status --json, succeeded
+2026-06-06T14:45:24.482Z 11112 ls --json, succeeded
+2026-06-06T14:45:35.898Z 11274 mini-status --json, started
+2026-06-06T14:45:35.944Z 11273 ls --json, started
+2026-06-06T14:45:35.955Z 11274 mini-status --json, succeeded
+2026-06-06T14:45:36.014Z 11273 ls --json, succeeded
+2026-06-06T14:45:49.951Z 11404 mini-status --json, started
+2026-06-06T14:45:50.017Z 11404 mini-status --json, succeeded
+2026-06-06T14:45:50.068Z 11423 ls --json, started
+2026-06-06T14:45:50.133Z 11423 ls --json, succeeded
+2026-06-06T14:46:34.363Z 11760 check-types, started
+2026-06-06T14:46:37.112Z 11760 check-types, succeeded
+2026-06-06T14:46:47.049Z 11917 run football-service -p 3002, started
+2026-06-06T14:51:51.351Z 12296 run football-prototype -p 3001, started
+2026-06-06T14:52:18.319Z 12449 validate, started
+2026-06-06T14:52:30.437Z 12449 validate, succeeded
+2026-06-06T14:55:21.002Z 12782 status --json, started
+2026-06-06T14:55:23.800Z 12782 status --json, succeeded
+2026-06-06T14:57:22.056Z 13015 mini-status --json, started
+2026-06-06T14:57:22.103Z 13016 ls --json, started
+2026-06-06T14:57:22.118Z 13015 mini-status --json, succeeded
+2026-06-06T14:57:22.173Z 13016 ls --json, succeeded
+2026-06-06T14:57:50.617Z 13199 mini-status --json, started
+2026-06-06T14:57:50.653Z 13187 ls --json, started
+2026-06-06T14:57:50.692Z 13199 mini-status --json, succeeded
+2026-06-06T14:57:50.737Z 13187 ls --json, succeeded
+2026-06-06T14:58:00.009Z 13335 mini-status --json, started
+2026-06-06T14:58:00.067Z 13336 ls --json, started
+2026-06-06T14:58:00.110Z 13335 mini-status --json, succeeded
+2026-06-06T14:58:00.131Z 13336 ls --json, succeeded
+2026-06-06T14:58:28.721Z 13501 check-types, started
+2026-06-06T14:58:29.224Z 13556 mini-status --json, started
+2026-06-06T14:58:29.304Z 13556 mini-status --json, succeeded
+2026-06-06T14:58:29.332Z 13555 ls --json, started
+2026-06-06T14:58:29.406Z 13555 ls --json, succeeded
+2026-06-06T14:58:31.606Z 13501 check-types, succeeded
+2026-06-06T14:58:43.498Z 13747 run football-service -p 3002, started
+2026-06-06T15:00:37.102Z 14160 check-types, started
+2026-06-06T15:00:39.893Z 14160 check-types, succeeded
+2026-06-06T15:00:50.781Z 14301 run football-prototype -p 3001, started
+2026-06-06T15:06:57.350Z 14637 status --json, started
+2026-06-06T15:07:00.118Z 14637 status --json, succeeded
+2026-06-06T15:09:48.423Z 14858 mini-status --json, started
+2026-06-06T15:09:48.465Z 14841 ls --json, started
+2026-06-06T15:09:48.476Z 14858 mini-status --json, succeeded
+2026-06-06T15:09:48.533Z 14841 ls --json, succeeded
+2026-06-06T15:09:51.760Z 15049 mini-status --json, started
+2026-06-06T15:09:51.791Z 15050 ls --json, started
+2026-06-06T15:09:51.816Z 15049 mini-status --json, succeeded
+2026-06-06T15:09:51.860Z 15050 ls --json, succeeded
+2026-06-06T15:09:54.202Z 15183 check-types, started
+2026-06-06T15:09:56.967Z 15183 check-types, succeeded
+2026-06-06T15:10:04.383Z 15309 run football-service -p 3002, started
+2026-06-06T15:10:44.604Z 15502 run football-prototype -p 3001, started
+2026-06-06T15:12:18.257Z 15836 check-types, started
+2026-06-06T15:12:21.067Z 15836 check-types, succeeded
+2026-06-06T15:12:28.530Z 15972 run football-service -p 3002, started
+2026-06-06T15:13:09.395Z 16164 run football-prototype -p 3001, started
+2026-06-06T15:13:28.454Z 16361 check-types, started
+2026-06-06T15:13:31.166Z 16361 check-types, succeeded
+2026-06-06T15:21:46.294Z 16662 status --json, started
+2026-06-06T15:21:49.058Z 16662 status --json, succeeded
+2026-06-06T15:23:49.323Z 16756 status --json, started
+2026-06-06T15:23:52.126Z 16756 status --json, succeeded
+2026-06-06T15:23:56.536Z 16830 list, started
+2026-06-06T15:23:56.620Z 16830 list, succeeded
+2026-06-06T15:23:57.919Z 16853 app list --json, started
+2026-06-06T15:24:00.620Z 16853 app list --json, succeeded
+2026-06-06T15:25:25.655Z 17114 mini-status --json, started
+2026-06-06T15:25:25.762Z 17114 mini-status --json, succeeded
+2026-06-06T15:25:25.779Z 17133 ls --json, started
+2026-06-06T15:25:25.848Z 17133 ls --json, succeeded
+2026-06-06T15:26:52.688Z 17312 ls --json, started
+2026-06-06T15:26:52.745Z 17335 mini-status --json, started
+2026-06-06T15:26:52.756Z 17312 ls --json, succeeded
+2026-06-06T15:26:52.797Z 17335 mini-status --json, succeeded
+2026-06-06T15:27:45.848Z 17488 mini-status --json, started
+2026-06-06T15:27:45.893Z 17489 ls --json, started
+2026-06-06T15:27:45.902Z 17488 mini-status --json, succeeded
+2026-06-06T15:27:45.960Z 17489 ls --json, succeeded
+2026-06-06T15:28:03.666Z 17655 mini-status --json, started
+2026-06-06T15:28:03.716Z 17657 ls --json, started
+2026-06-06T15:28:03.721Z 17655 mini-status --json, succeeded
+2026-06-06T15:28:03.786Z 17657 ls --json, succeeded
+2026-06-06T15:30:38.602Z 17945 mini-status --json, started
+2026-06-06T15:30:38.655Z 17945 mini-status --json, succeeded
+2026-06-06T15:30:38.733Z 17964 ls --json, started
+2026-06-06T15:30:38.800Z 17964 ls --json, succeeded
+2026-06-06T15:31:30.632Z 18130 run football-prototype -p 3001, started
+2026-06-06T15:32:35.903Z 18387 run football-prototype -p 3001, started
+2026-06-06T15:33:54.069Z 18735 check-types, started
+2026-06-06T15:33:56.843Z 18735 check-types, succeeded
+2026-06-06T15:34:06.432Z 18850 run football-service -p 3002, started
+2026-06-06T15:34:16.566Z 19050 run football-prototype -p 3001, started
+2026-06-06T15:36:54.996Z 19393 status --json, started
+2026-06-06T15:36:57.823Z 19393 status --json, succeeded
+2026-06-06T15:37:27.059Z 19494 status --json, started
+2026-06-06T15:37:29.840Z 19494 status --json, succeeded
+2026-06-06T15:38:08.948Z 19561 status --json, started
+2026-06-06T15:38:11.762Z 19561 status --json, succeeded
+2026-06-06T15:38:23.098Z 19635 validate, started
+2026-06-06T15:38:35.640Z 19635 validate, failed
+2026-06-06T15:39:36.155Z 19940 status --json, started
+2026-06-06T15:39:38.946Z 19940 status --json, succeeded
+2026-06-06T15:39:58.123Z 20015 status --json, started
+2026-06-06T15:40:00.915Z 20015 status --json, succeeded
+2026-06-06T15:40:23.216Z 20216 start -p 3000 --use-source, started
+2026-06-06T15:40:56.918Z 20391 status --json, started
+2026-06-06T15:40:59.704Z 20391 status --json, succeeded
+2026-06-06T15:41:31.138Z 20492 run football-prototype -p 3001, started
+2026-06-06T15:41:40.211Z 20687 run football-service -p 3002, started
+2026-06-06T15:41:41.846Z 20725 status --json, started
+2026-06-06T15:41:44.717Z 20725 status --json, succeeded
+2026-06-06T15:53:15.911Z 22133 status --json, started
+2026-06-06T15:53:16.387Z 22156 get-deps juju123.football/apps/football-prototype,juju123.football/services/football-service --json -c, started
+2026-06-06T15:53:18.963Z 22133 status --json, succeeded
+2026-06-06T15:53:19.181Z 22156 get-deps juju123.football/apps/football-prototype,juju123.football/services/football-service --json -c, succeeded
+2026-06-06T15:53:21.508Z 22321 server --port 3942 --compile, started
+2026-06-06T15:53:33.905Z 22555 status --json, started
+2026-06-06T15:53:36.694Z 22555 status --json, succeeded
+2026-06-06T15:54:10.700Z 22768 status --json, started
+2026-06-06T15:54:13.475Z 22768 status --json, succeeded
+2026-06-06T15:54:34.193Z 22841 status --json, started
+2026-06-06T15:54:37.037Z 22841 status --json, succeeded

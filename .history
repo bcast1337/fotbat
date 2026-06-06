@@ -32,3 +32,13 @@ git rm -r --cached node_modules
 git add .gitignore
 git add .
 git commit -m "Football Decision Intelligence Platform"
+cd ~/football-intel
+# scoate node_modules din git (rămâne pe disc, dar nu se mai urcă)
+git rm -r --cached node_modules
+git add .gitignore
+git add .
+git commit -m "Football Decision Intelligence Platform"
+git remote set-url origin https://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@github.com/affiliated112-pixel/fotbal.git
+git push -u origin main --force
+cd ~/football-intel && git init && git remote add origin https://bcast1337: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@github.com/bcast1337/fotbat.git
+git add . && git commit -m "feat: Edge FC v2 — ELO+Poisson, Kelly, H2H, extended markets, bankroll" && git push -u origin main --force
