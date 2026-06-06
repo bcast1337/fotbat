@@ -1,1 +1,0 @@
-{"version":3,"file":"app.js","sourceRoot":"","sources":["../../../webpack-template/files/app.ts"],"names":[],"mappings":";;;AAEO,MAAM,OAAO,GAAG,CAAC,OAAyB,EAAE,EAAE;IACnD,MAAM,EAAE,IAAI,EAAE,cAAc,EAAE,IAAI,EAAE,GAAG,OAAO,CAAC;IAC/C,OAAO;QACL,YAAY,EAAE,GAAG,IAAI,MAAM;QAC3B,OAAO,EAAE;;kBAEK,IAAI;;;;;;EAMpB;KACC,CAAC;AACJ,CAAC,CAAC;AAdW,QAAA,OAAO,WAclB"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"webpack-fallbacks-provide-plugin-config.js","sourceRoot":"","sources":["../../config/webpack-fallbacks-provide-plugin-config.ts"],"names":[],"mappings":";;;AAAa,QAAA,4BAA4B,GAAG;IAC1C,OAAO,EAAE,OAAO,CAAC,OAAO,CAAC,iBAAiB,CAAC;IAC3C,MAAM,EAAE,CAAC,OAAO,CAAC,OAAO,CAAC,SAAS,CAAC,EAAE,QAAQ,CAAC;CAC/C,CAAC"}

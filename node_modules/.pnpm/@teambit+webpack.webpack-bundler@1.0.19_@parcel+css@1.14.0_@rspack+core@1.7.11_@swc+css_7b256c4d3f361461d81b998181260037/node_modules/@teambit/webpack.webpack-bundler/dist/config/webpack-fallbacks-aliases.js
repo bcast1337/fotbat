@@ -1,8 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.fallbacksAliases = void 0;
-exports.fallbacksAliases = {
-    process: require.resolve('process/browser'),
-    buffer: require.resolve('buffer/'),
-};
-//# sourceMappingURL=webpack-fallbacks-aliases.js.map

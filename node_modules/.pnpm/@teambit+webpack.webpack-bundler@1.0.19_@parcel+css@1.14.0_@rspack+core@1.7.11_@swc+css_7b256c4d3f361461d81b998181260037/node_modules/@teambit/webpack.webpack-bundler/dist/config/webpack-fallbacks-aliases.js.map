@@ -1,1 +1,0 @@
-{"version":3,"file":"webpack-fallbacks-aliases.js","sourceRoot":"","sources":["../../config/webpack-fallbacks-aliases.ts"],"names":[],"mappings":";;;AAAa,QAAA,gBAAgB,GAAG;IAC9B,OAAO,EAAE,OAAO,CAAC,OAAO,CAAC,iBAAiB,CAAC;IAC3C,MAAM,EAAE,OAAO,CAAC,OAAO,CAAC,SAAS,CAAC;CACnC,CAAC"}

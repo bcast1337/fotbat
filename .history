@@ -16,3 +16,19 @@ git remote set-url origin https://affiliated112-pixel:ghp_uKmDj6sikcmyGDhPPABUBx
 git push -u origin main
 git remote set-url origin https://affiliated112-pixel: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@github.com/affiliated112-pixel/fotbal.git
 git push -u origin main
+cd ~/football-intel
+git config --global user.email "affiliated112@example.com"
+git config --global user.name "affiliated112-pixel"
+git add .
+git commit -m "Football Decision Intelligence Platform"
+git branch -M main
+git remote set-url origin https://affiliated112-pixel:TOKEN_NOU@github.com/affiliated112-pixel/fotbal.git
+git push -u origin main
+git pull origin main --rebase --allow-unrelated-histories
+git push -u origin main
+cd ~/football-intel
+# scoate node_modules din git (rămâne pe disc, dar nu se mai urcă)
+git rm -r --cached node_modules
+git add .gitignore
+git add .
+git commit -m "Football Decision Intelligence Platform"

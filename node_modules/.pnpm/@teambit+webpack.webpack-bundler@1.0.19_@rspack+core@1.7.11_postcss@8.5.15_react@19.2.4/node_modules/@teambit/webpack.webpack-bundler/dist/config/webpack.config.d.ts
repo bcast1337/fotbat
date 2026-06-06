@@ -1,3 +1,0 @@
-import { Configuration } from 'webpack';
-import type { BundlerContext, Target } from '@teambit/bundler';
-export declare function configFactory(target: Target, context: BundlerContext): Configuration;
